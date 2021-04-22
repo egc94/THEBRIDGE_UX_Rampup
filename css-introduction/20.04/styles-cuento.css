@@ -1,0 +1,36 @@
+div {
+    text-align: center;
+}
+
+#principe {
+    transform: translate(-200px);
+}
+
+#principe:hover {
+    transform: translate(100px);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+#espada {
+    transform: rotate(-45deg);
+}
+
+#espada:hover {
+    transform: rotate(22.5deg);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    z-index: 2;
+}
+
+
+/* The animation code */
+
+@keyframes example {
+    from {
+        right: 50px;
+    }
+    to {
+        right: 100px;
+    }
+}

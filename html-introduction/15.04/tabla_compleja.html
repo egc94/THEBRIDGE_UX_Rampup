@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Extra Ejercicio</title>
+    <style>
+        h1 {
+            text-align: center;
+            border: 1px solid black;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .rojo {
+            background-color: red;
+        }
+        
+        .naranja {
+            background-color: orange;
+        }
+        
+        .amarillo {
+            background-color: yellow;
+        }
+        
+        .verde {
+            background-color: green;
+        }
+        
+        .azul_claro {
+            background-color: deepskyblue;
+        }
+        
+        .azul_oscuro {
+            background-color: royalblue;
+        }
+        
+        .morado {
+            background-color: blueviolet;
+        }
+        
+        th,
+        td {
+            border: 1px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            margin: 100px;
+            height: 20px;
+            width: 20px;
+        }
+        
+        table {
+            text-align: center;
+            margin: auto;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Me faltaba la parte de visibility hidden
+         y la fila adicional del 16-->
+    <h1>Tabla compleja</h1>
+    <table cellspacing="0">
+        <tr class="rojo">
+            <td rowspan="3">1</td>
+            <td rowspan="2"> </td>
+            <td colspan="2"> </td>
+            <td rowspan="3"> </td>
+            <td colspan="2"> </td>
+        </tr>
+        <tr class="naranja">
+            <td>2</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr class="amarillo">
+            <td colspan="2">3</td>
+            <td></td>
+            <td></td>
+            <td rowspan="3"></td>
+        </tr>
+        <tr class="verde">
+            <td>4</td>
+            <td colspan="2"></td>
+            <td colspan="3"></td>
+        </tr>
+        <tr class="azul_claro">
+            <td>5</td>
+            <td colspan="2"></td>
+            <td rowspan="2"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr class="azul_oscuro">
+            <td>6</td>
+            <td colspan="2"></td>
+            <td colspan="3"></td>
+        </tr>
+        <tr class="morado">
+            <td rowspan="4">7</td>
+            <td rowspan="2" colspan="2"></td>
+            <td></td>
+            <td colspan="3"></td>
+        </tr>
+        <tr class="rojo">
+            <td rowspan="3">8</td>
+            <td colspan="3" rowspan="3"></td>
+            <td style="visibility: hidden;"></td>
+        </tr>
+        <tr class="naranja">
+            <td>9</td>
+            <td></td>
+        </tr>
+        <tr class="amarillo">
+            <td>10</td>
+            <td></td>
+        </tr>
+        <tr class="verde">
+            <td>11</td>
+            <td colspan="4"></td>
+            <td></td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr class="azul_claro">
+            <td colspan="3">12</td>
+            <td></td>
+            <td rowspan="2"></td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr class="azul_oscuro">
+            <td colspan="3" rowspan="5">13</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="morado">
+            <td>14</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="rojo">
+            <td>15</td>
+            <td></td>
+            <td colspan="2" rowspan="2"></td>
+        </tr>
+        <tr class="naranja">
+            <td rowspan="3">16</td>
+            <td rowspan="3"></td>
+            <td style="visibility: hidden;"></td>
+        </tr>
+        <tr class="naranja">
+            <td colspan="2"></td>
+        </tr>
+        <tr class="amarillo">
+            <td rowspan="1">17</td>
+            <td colspan="2"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr class="verde">
+            <td>18</td>
+            <td colspan="6"></td>
+        </tr>
+    </table>
+</body>
+
+</html>

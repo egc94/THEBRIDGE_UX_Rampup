@@ -1,0 +1,58 @@
+p,
+li,
+blockquote {
+    font-family: 'Homemade Apple', cursive;
+    word-spacing: 15px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Niconne', cursive;
+    line-height: 100px;
+}
+
+ul,
+ol {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#tituloblock {
+    font-family: 'Niconne', cursive;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+body {
+    width: 75%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+address,
+#fecha {
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    background-color: antiquewhite;
+}
+
+#fecha {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+a {
+    font-family: 'Niconne', cursive;
+    font-size: 24px;
+}

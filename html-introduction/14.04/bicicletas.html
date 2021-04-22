@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios: Bicicletas</title>
+</head>
+
+<body>
+    <h1>Los ladronzuelos de bicicletas</h1>
+    <form action="/" method="GET" target="_blank">
+        <fieldset>
+            <legend>Datos Básicos</legend>
+            <label for="fecha">Dia</label><br>
+            <input id="fecha" name="fecha" type="date" placeholder="Introduzca la fecha" autofocus tabindex="1"><br>
+            <label for="hora">Hora</label><br>
+            <input id="hora" name="hora" type="time" placeholder="Introduzca la hora" tabindex="2"><br>
+            <label for="color">Color</label><br>
+            <input id="color" name="color" type="color" placeholder="Color de la bicicleta" tabindex="3"><br>
+            <label for="rango">Rango de precio (entre 50 y 500 €)</label><br>
+            <input id="rango" name="rango" type="range" min="50" max="500" tabindex="4"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Tipo de Bicicleta</legend>
+            <select name="paseo" id="paseo" tabindex="5">
+                <option value=""></option>
+                <optgroup label="Paseo">
+
+                <option value="senorial">Señorial</option>
+                <option value="plebeyos">Anti-Plebeyos</option>
+                <option value="hombro">PorEncimaDelHombro</option>
+            </optgroup>
+            <optgroup label="Montaña">
+                <option value="gamusinos">Gamusinos</option>
+                <option value="flores">Hueleflores premium</option>
+                <option value="fango">Fango lover</option>
+            </optgroup>
+            <optgroup label="Carreras">
+                <option value="metro">Metroymedio</option>
+                <option value="edition">3 de la tarde. fluorescente edition</option>
+                <option value="grupitors">Grupitors</option>
+            </optgroup>
+            </select><br>
+            <label for="accesorios">Accesorios</label><br>
+            <select multiple name="accesorios" id="accesorios" tabindex="6">
+                <option value="ruedines">Ruedines</option>
+                <option value="pegatinas">Pegatinas</option>
+                <option value="cestita">Cestita</option>
+                <option value="bomba">Bomba de aire</option>
+                <option value="timbre">Timbre</option>
+                <option value="foco">Foco</option>
+            </select><br>
+            <label for="brand">¿Qué marca era?</label><br>
+            <input list="brand" tabindex="7">
+            <datalist id="brand">
+                <option value="specialized">
+                <option value="trek">
+                <option value="merida">
+                <option value="scott">
+                <option value="giant">
+                <option value="cube">
+                <option value="lapierre">
+                <option value="orbea">
+                <option value="cannondale">
+                <option value="bmc">
+                <option value="canyon">
+                <option value="look">  
+                <option value="protek">
+                <option value="megamo">
+                <option value="pinarello">
+                <option value="bianchi">
+                <option value="bh">
+                <option value="factor">  
+                <option value="ghost">
+                <option value="cervélo">
+                <option value="argon">  
+            </datalist>
+        </fieldset>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>

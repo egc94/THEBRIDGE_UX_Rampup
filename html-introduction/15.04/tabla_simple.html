@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Extra Ejercicio</title>
+    <style>        
+        h1{
+            text-align: center;
+            border: 1px solid black;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        th{
+            background-color: green;
+            color: white;
+            font-weight: bold;
+            margin: 50px;
+        }
+        table{
+            text-align: center;
+            margin: auto;
+            width: 100%;
+        }
+        th,td{
+            border: 1px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            margin: 100px;
+        }
+    </style>
+</head>
+<body width=100%>
+    <h1>Tabla simple</h1>
+    <table cellspacing="10">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th colspan="2">Location</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Aziz</td>
+            <td rowspan="2">26</td>
+            <td>Chicago</td>
+            <td>IL</td>
+        </tr>
+        <tr>
+            <td>San Diego</td>
+            <td>CA</td>
+        </tr>
+        <tr>
+            <td>Jen</td>
+            <td>40</td>
+            <td>New York</td>
+            <td>NY</td>
+        </tr>
+        <tr>
+            <td>Jordan</td>
+            <td>29</td>
+            <td>London</td>
+            <td>UK</td>
+        </tr>
+    </table>
+</body>
+</html>

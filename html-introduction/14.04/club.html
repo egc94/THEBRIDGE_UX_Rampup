@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios: Club</title>
+</head>
+<body>
+<h1>Club Viejuner</h1>
+<form action="/" method="GET" target="_blank"></form>
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="nombre">Nombre</label><br>
+        <input id="nombre" name="nombre" type="text" placeholder="Introduce tu nombre" autofocus tabindex="1"><br>
+        <label for="apellidos">Apellidos</label><br>
+        <input id="apellidos" name="apellidos" type="text" placeholder="Introduce tu apellidos" tabindex="2"><br>
+        <label for="edad">Edad</label><br>
+        <input id="edad" name="edad" placeholder="Introduce tu edad" type="number" tabindex="3"><br>
+        <input id="hombre" name="sexo" type="radio" tabindex="4"><label for="hombre">Hombre</label>
+        <input id="mujer" name="sexo" type="radio" tabindex="5"><label for="mujer">Mujer</label><br>
+        <input id="viejuner" name="viejuner" type="checkbox" tabindex="6">
+        <label for="viejuner">Me siento viejuner</label><br>
+        <textarea name="area" id="area" cols="60" rows="10" placeholder="Escribe algo sobre ti" tabindex="7"></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Tus Circunstancias</legend>
+        <label for="email">Correo electrónico</label><br>
+        <input style="width: 200px;" id="email" name="email" placeholder="Introduce tu correo electrónico" type="email" tabindex="8"><br>
+        <label for="telefono">Teléfono</label><br>
+        <input id="telefono" name="telefono" placeholder="Introduce tu teléfono" type="tel" tabindex="9"><br>
+    </fieldset>
+    <input type="reset">
+    <input type="submit">
+</form>
+</body>
+</html>
