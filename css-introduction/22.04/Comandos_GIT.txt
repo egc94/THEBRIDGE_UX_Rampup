@@ -1,0 +1,8 @@
+git init
+git clone
+git status
+git pull
+git push
+git fetch
+git branch -D <nombre_rama>
+git checkout <nombre_rama>
